@@ -1,0 +1,831 @@
+<<<<<<< 61ddbc132891cf9533228634c5d59b0c5d30fb7b
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FourthWindow</class>
+ <widget class="QMainWindow" name="FourthWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(233, 228, 217);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>-10</y>
+      <width>300</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;微软雅黑&quot;;
+background-image: url(:/main/images/mytitle.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/name.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>78</y>
+      <width>72</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/money.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>165</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>225</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>285</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>345</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>405</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>165</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>225</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>285</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>345</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_6">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>405</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>280</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>340</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>400</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="refresh">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>43</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+background-image: url(:/main/images/default_ptr_rotate.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>432</x>
+      <y>2</y>
+      <width>67</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-image: url(:/main/images/business_close_normal.png);
+border:none;
+}
+QPushButton:hover{
+background-image: url(:/main/images/business_close_selected.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tip">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>400</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/tip.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FourthWindow</class>
+ <widget class="QMainWindow" name="FourthWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(233, 228, 217);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>-10</y>
+      <width>300</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;微软雅黑&quot;;
+background-image: url(:/main/images/mytitle.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/name.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>78</y>
+      <width>72</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/money.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>165</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>225</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>285</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>345</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>405</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>165</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>225</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>285</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>345</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money_6">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>405</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>金币</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>280</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>340</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pk_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>400</y>
+      <width>52</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background-image: url(:/main/images/pk_normal_default.png);
+}
+QPushButton:hover{
+background-image: url(:/main/images/pk_pressed_night.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="refresh">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>43</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+background-image: url(:/main/images/default_ptr_rotate.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>432</x>
+      <y>2</y>
+      <width>67</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-image: url(:/main/images/business_close_normal.png);
+border:none;
+}
+QPushButton:hover{
+background-image: url(:/main/images/business_close_selected.png);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tip">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>400</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/main/images/tip.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+>>>>>>> final version
